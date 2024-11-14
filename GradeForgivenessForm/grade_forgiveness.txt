@@ -1,0 +1,3 @@
+1800904_1,Chris,Computing,XCMP4025,"Information Techology","Enterprise System",,,,,,"data design",cmp2019,3,3,D,,,"Christopher Thomas"
+1800904_1,Chris,Computing,XCMP4025,"Information Techology","Enterprise System",khrisjr876@gmail.com,8765447676,3,3,Papine,"data design",cmp2019,3,3,D,,,"Christopher Thomas",2024-10-14
+1800904_2,Chris,Computing,XCMP4025,"Information Techology","Enterprise System",khrisjr876@gmail.com,8765447676,3,3,Papine,"data structures",cmp1010,3,3,E,,,"Christopher Thomas",2024-10-14

@@ -1,0 +1,96 @@
+<!--
+	NAME: ChristopherThomas 
+	ID#: 1800904
+	MODULE CODE: CIT4034
+	DAY/TIME OF CLASS: TUES @8 - 11
+	DAY/TIME OF CLASS: WED @11 - 2
+
+
+	Question:
+Attempt: Try building a log in form that accepts username and password and authorize the user's entry only if they have entered “tricky” 
+and the username and “platform” as their password.  Provide a professional message telling the user if they are authorized to use the system or not.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secure Login Form</title>
+    <style>
+        /* Basic styling for the login form */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-box {
+            background-color: #fff;
+            padding: 30px 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .login-box h2 {
+            margin-bottom: 25px;
+            text-align: center;
+            color: #333;
+        }
+        .login-box label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        .login-box input[type="text"],
+        .login-box input[type="password"] {
+            width: 100%;
+            padding: 10px 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .login-box input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            background-color: #4285F4;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .login-box input[type="submit"]:hover {
+            background-color: #357ae8;
+        }
+        .message {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 4px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h2>User Login</h2>
+        <form action="authenticate.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required placeholder="Enter your username">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required placeholder="Enter your password">
+
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>

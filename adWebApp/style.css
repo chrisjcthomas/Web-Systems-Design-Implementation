@@ -1,0 +1,62 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    color: #ffffff;
+}
+
+header {
+    background-color: #1c3b6f; /* Darker blue */
+    color: white;
+    padding: 15px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.card-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(28, 59, 111, 0.85); /* Semi-transparent dark blue background */
+}
+
+.btn-primary {
+    background-color: #1c3b6f; /* Darker blue for button */
+    border-color: #1c3b6f;
+}
+
+.btn-primary:hover {
+    background-color: #163259;
+    border-color: #163259;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
