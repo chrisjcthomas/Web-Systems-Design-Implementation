@@ -1,7 +1,0 @@
-ID,Title,FirstName,LastName,Age,PhotoFilename,Programme,Major,NumberOfModules
-1800904,Mr,Christopher,Thomas,25,66ee678e94678.jpg,Computing,Information Techology,3
-1800904,Mr,Christopher,Thomas,25,66ee6faa72527.png,Computing,Information Techology,4
-1800904,Mr,Christopher,Thomas,25,66ee7080c2413.jpg,Computing,Information Techology,3
-1725444,Mr,John,Doe,20,66ee713ab3683.png,CNS,Computer Security,5
-1111111,Ms,Abby,Norris,20,66ef195280c9e.png,Computing,Computer Science,4
-2121212,Mr,john,Doe,18,670e87d30d007.png,Computing,Information Techology,2
